@@ -9,6 +9,7 @@ class TextImporter(models.Model):
     fiscal_year = models.IntegerField()
     customer = models.IntegerField()
     bill_document = models.IntegerField()
+    files = models.FileField(upload_to='media', null=True)
 
 
 

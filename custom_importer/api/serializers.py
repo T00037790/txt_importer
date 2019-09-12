@@ -2,6 +2,6 @@ from rest_framework import serializers
 
 
 class FileSerializer(serializers.Serializer):
-    file = serializers.FileField(required=True)
+    files = serializers.FileField(required=True)
 
 
